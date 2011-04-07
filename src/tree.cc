@@ -281,7 +281,6 @@ Handle<Value> Tree::RemoveEntry(const Arguments& args) {
 	HandleScope scope;
 
 	REQ_ARGS(1);
-	REQ_INT_ARG(0, indexArg);
 
 	Tree *tree = ObjectWrap::Unwrap<Tree>(args.This());
 
